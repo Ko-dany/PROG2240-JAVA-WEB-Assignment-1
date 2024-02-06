@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+html{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(253,187,45,1) 100%);
+}
 body { 
     font-family: "Manrope", sans-serif;
-    padding: 20px;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid black;
+    background-color: white;
 }
 
 .banner_top{
