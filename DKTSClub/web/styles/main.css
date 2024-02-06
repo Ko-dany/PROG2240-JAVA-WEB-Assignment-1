@@ -36,8 +36,8 @@ body {
 
 .nav{
     padding: 10px 0 10px 0;
-    border-top: 2px solid rgb(230, 159, 7);    
-    border-bottom: 2px solid rgb(230, 159, 7);
+    border-top: 3px solid rgb(230, 159, 7);    
+    border-bottom: 3px solid rgb(230, 159, 7);
     display:flex;
     justify-content: right;
     list-style:none;
@@ -45,7 +45,7 @@ body {
 
 .nav li{
     padding: 0 20px 0 20px;
-    border-left: 2px solid black;
+    border-left: 3px solid black;
 }
 
 .nav li a{
@@ -55,7 +55,7 @@ body {
 }
 
 footer{
-    border-top: 2px solid rgb(230, 159, 7);   
+    border-top: 3px solid rgb(230, 159, 7);   
     text-align: right;
     font-size: 0.8rem;
 }
