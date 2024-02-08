@@ -8,8 +8,10 @@ body {
     margin: 20px;
     padding: 30px;
     border: 1px solid black;
-    background-color: white;
+    background-color: red;
 }
+
+/*  Banner styles  */ 
 
 .banner_top{
     display: flex;
@@ -53,6 +55,15 @@ body {
     text-decoration: underline;
     color: rgb(25, 102, 18);
 }
+
+/*  Main sections styles  */ 
+
+.strong_text{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/*  Footer styles  */ 
 
 footer{
     border-top: 3px solid rgb(230, 159, 7);   

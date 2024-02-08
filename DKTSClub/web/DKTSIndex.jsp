@@ -12,7 +12,19 @@
     <jsp:include page="/includes/header.jsp"/>
     <body>
         <jsp:include page="/includes/DKTSBanner.jsp" />
-        <div>Hello Index!</div>
+        <section>
+            <h3>Java Web Technologies: Section 1</h3>
+            <div>
+                <p>Pair Programming Team:</p>
+                <h4>Assignment 1</h4>
+                <h4>Driver: Dahyun Ko</h4>            
+                <h4>Observer: Taeguk Seok</h4>
+            </div>
+            <div>
+                <p>Current Date and Time:</p>
+                <h4><%= new java.util.Date() %></h4>
+            </div>    
+        </section>
         
         <jsp:include page="/includes/DKTSFooter.jsp"/>
     </body>    
